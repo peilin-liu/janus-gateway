@@ -1,0 +1,363 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source files">
+      <UniqueIdentifier>{a4373567-9f91-4a5c-832a-bd39bdbda668}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header files">
+      <UniqueIdentifier>{1795991e-ec10-4b25-a380-361e3dc9c864}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource files">
+      <UniqueIdentifier>{edf5cb22-ee00-4cf0-8edb-b57c48307d66}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="Source files\events">
+      <UniqueIdentifier>{86abe19e-ddd8-425a-8ea2-cea38cd6c0e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\events">
+      <UniqueIdentifier>{9c78a4fe-2961-48f8-94d4-e5f6fc282a21}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\plugins">
+      <UniqueIdentifier>{aa449d6f-3bf5-4e51-aff9-75daf6c32b8c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\plugins">
+      <UniqueIdentifier>{a3a26b92-30b7-4da0-b75d-26377c550af1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\plugins\duktape-deps">
+      <UniqueIdentifier>{a35b69c2-ba9e-499e-bb9c-65d0c416bcbf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\plugins\duktape-deps">
+      <UniqueIdentifier>{455ad2c1-4f8e-4cd6-a105-ff5bd98cd0a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\postprocessing">
+      <UniqueIdentifier>{e992bca8-7b7a-4f7f-8a5d-22dab571c40e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\postprocessing">
+      <UniqueIdentifier>{3a378028-1a0a-453c-8e3a-66bb1664a3f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\transports">
+      <UniqueIdentifier>{c47811d0-1a09-4748-97ef-342f1622473b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\transports">
+      <UniqueIdentifier>{894cdff0-3ded-4a4c-8aae-51f48415477e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="VisualGDB settings">
+      <UniqueIdentifier>{b4c4f7f1-43f0-4d4c-afe5-3175b6ec7b04}</UniqueIdentifier>
+      <Extensions>*.vgdbsettings</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\events\janus_mqttevh.c">
+      <Filter>Source files\events</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\events\janus_rabbitmqevh.c">
+      <Filter>Source files\events</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\events\janus_sampleevh.c">
+      <Filter>Source files\events</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\plugins\janus_audiobridge.c">
+      <Filter>Source files\plugins</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\plugins\janus_duktape.c">
+      <Filter>Source files\plugins</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\plugins\janus_duktape_extra.c">
+      <Filter>Source files\plugins</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\plugins\janus_echotest.c">
+      <Filter>Source files\plugins</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\plugins\janus_lua.c">
+      <Filter>Source files\plugins</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\plugins\janus_lua_extra.c">
+      <Filter>Source files\plugins</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\plugins\janus_nosip.c">
+      <Filter>Source files\plugins</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\plugins\janus_recordplay.c">
+      <Filter>Source files\plugins</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\plugins\janus_sip.c">
+      <Filter>Source files\plugins</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\plugins\janus_sipre.c">
+      <Filter>Source files\plugins</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\plugins\janus_streaming.c">
+      <Filter>Source files\plugins</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\plugins\janus_textroom.c">
+      <Filter>Source files\plugins</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\plugins\janus_videocall.c">
+      <Filter>Source files\plugins</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\plugins\janus_videoroom.c">
+      <Filter>Source files\plugins</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\plugins\janus_voicemail.c">
+      <Filter>Source files\plugins</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\plugins\plugin.c">
+      <Filter>Source files\plugins</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\plugins\duktape-deps\duktape.c">
+      <Filter>Source files\plugins\duktape-deps</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\plugins\duktape-deps\duk_console.c">
+      <Filter>Source files\plugins\duktape-deps</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\plugins\duktape-deps\duk_module_duktape.c">
+      <Filter>Source files\plugins\duktape-deps</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\postprocessing\janus-pp-rec.c">
+      <Filter>Source files\postprocessing</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\postprocessing\pp-g711.c">
+      <Filter>Source files\postprocessing</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\postprocessing\pp-g722.c">
+      <Filter>Source files\postprocessing</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\postprocessing\pp-h264.c">
+      <Filter>Source files\postprocessing</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\postprocessing\pp-opus.c">
+      <Filter>Source files\postprocessing</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\postprocessing\pp-srt.c">
+      <Filter>Source files\postprocessing</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\postprocessing\pp-webm.c">
+      <Filter>Source files\postprocessing</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\transports\janus_http.c">
+      <Filter>Source files\transports</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\transports\janus_mqtt.c">
+      <Filter>Source files\transports</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\transports\janus_nanomsg.c">
+      <Filter>Source files\transports</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\transports\janus_pfunix.c">
+      <Filter>Source files\transports</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\transports\janus_rabbitmq.c">
+      <Filter>Source files\transports</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\transports\janus_websockets.c">
+      <Filter>Source files\transports</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\transports\transport.c">
+      <Filter>Source files\transports</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\apierror.c">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\auth.c">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\config.c">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\dtls-bio.c">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\dtls.c">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\events.c">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ice.c">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ip-utils.c">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\janus-gateway.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\janus.c">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\log.c">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\record.c">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\rtcp.c">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\rtp.c">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sctp.c">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sdp-utils.c">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sdp.c">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\text2pcap.c">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\turnrest.c">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\utils.c">
+      <Filter>Source files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\events\eventhandler.h">
+      <Filter>Header files\events</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\plugins\janus_duktape_data.h">
+      <Filter>Header files\plugins</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\plugins\janus_duktape_extra.h">
+      <Filter>Header files\plugins</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\plugins\janus_lua_data.h">
+      <Filter>Header files\plugins</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\plugins\janus_lua_extra.h">
+      <Filter>Header files\plugins</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\plugins\plugin.h">
+      <Filter>Header files\plugins</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\plugins\duktape-deps\duktape.h">
+      <Filter>Header files\plugins\duktape-deps</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\plugins\duktape-deps\duk_config.h">
+      <Filter>Header files\plugins\duktape-deps</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\plugins\duktape-deps\duk_console.h">
+      <Filter>Header files\plugins\duktape-deps</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\plugins\duktape-deps\duk_module_duktape.h">
+      <Filter>Header files\plugins\duktape-deps</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\postprocessing\pp-g711.h">
+      <Filter>Header files\postprocessing</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\postprocessing\pp-g722.h">
+      <Filter>Header files\postprocessing</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\postprocessing\pp-h264.h">
+      <Filter>Header files\postprocessing</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\postprocessing\pp-opus-silence.h">
+      <Filter>Header files\postprocessing</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\postprocessing\pp-opus.h">
+      <Filter>Header files\postprocessing</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\postprocessing\pp-rtp.h">
+      <Filter>Header files\postprocessing</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\postprocessing\pp-srt.h">
+      <Filter>Header files\postprocessing</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\postprocessing\pp-webm.h">
+      <Filter>Header files\postprocessing</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\transports\transport.h">
+      <Filter>Header files\transports</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\apierror.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\auth.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\config.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\debug.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\dtls-bio.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\dtls.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\events.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ice.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ip-utils.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\janus.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\log.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\mach_gettime.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\mutex.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\record.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\refcount.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\rtcp.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\rtp.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\rtpsrtp.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sctp.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sdp-utils.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sdp.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\text2pcap.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\turnrest.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\utils.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\version.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="janus-gateway-Debug.vgdbsettings">
+      <Filter>VisualGDB settings</Filter>
+    </None>
+    <None Include="janus-gateway-Release.vgdbsettings">
+      <Filter>VisualGDB settings</Filter>
+    </None>
+  </ItemGroup>
+</Project>
